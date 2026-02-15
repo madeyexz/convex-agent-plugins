@@ -15,5 +15,6 @@
     "typescript",
     "reactive",
     "serverless"
-  ]
+  ],
+  "hooks": "hooks.json"
 }

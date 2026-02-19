@@ -1,0 +1,16 @@
+{
+  "description": "Convex development hooks: pre-commit checks for common Convex anti-patterns",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "\\bgit\\s+commit\\b",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/pre-commit-checks.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

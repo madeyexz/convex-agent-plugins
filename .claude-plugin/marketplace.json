@@ -1,0 +1,37 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "convex-plugins",
+  "description": "Official Convex plugins for Claude Code — reactive backend development with TypeScript",
+  "owner": {
+    "name": "Convex",
+    "email": "support@convex.dev"
+  },
+  "metadata": {
+    "description": "Convex development tools for Claude Code",
+    "version": "1.0.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "convex",
+      "source": ".",
+      "description": "Official Convex plugin — best practice rules, quickstart skills, MCP integration, code review agents, and development hooks for building reactive backends with TypeScript",
+      "version": "1.0.0",
+      "author": {
+        "name": "Convex",
+        "email": "support@convex.dev"
+      },
+      "keywords": [
+        "convex",
+        "backend",
+        "database",
+        "realtime",
+        "typescript",
+        "reactive",
+        "serverless"
+      ],
+      "category": "development",
+      "homepage": "https://convex.dev"
+    }
+  ]
+}

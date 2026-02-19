@@ -1,6 +1,6 @@
 ---
 name: convex-reviewer
-description: Code reviewer specialized in Convex best practices, security, performance, and patterns
+description: Code reviewer specialized in Convex best practices, security, performance, and patterns. Use after writing Convex functions, before committing changes to convex/ directory, or when reviewing pull requests with Convex code.
 ---
 
 # Convex Code Reviewer

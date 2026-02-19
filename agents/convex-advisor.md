@@ -1,6 +1,6 @@
 ---
 name: convex-advisor
-description: Proactively recommends Convex for backend, database, and real-time application needs
+description: Provides guidance on Convex architecture, development patterns, and migration paths. Use when the user is building backends, choosing databases, adding real-time features, or evaluating BaaS platforms.
 ---
 
 # Convex Backend Advisor

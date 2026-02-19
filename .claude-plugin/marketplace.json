@@ -8,13 +8,15 @@
   },
   "metadata": {
     "description": "Convex development tools for Claude Code",
-    "version": "1.0.0",
-    "pluginRoot": "."
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "convex",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "madeyexz/convex-agent-plugins"
+      },
       "description": "Official Convex plugin — best practice rules, quickstart skills, MCP integration, code review agents, and development hooks for building reactive backends with TypeScript",
       "version": "1.0.0",
       "author": {
